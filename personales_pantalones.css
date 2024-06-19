@@ -1,0 +1,81 @@
+body{
+    background-color: #eee;
+}
+
+header{
+    background-color: #fff;
+}
+
+aside{
+    background-color: #fff;
+    padding-left: 5vh;
+    padding-right: 5vh;
+}
+
+#principal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 3vh;
+    gap: 5vh;
+}
+
+#articulos{
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    align-items: center;
+}
+
+.articulos__todos:hover{
+    text-align: center;
+    background-color: #f7e3be;
+    border: 2px solid #a77211;
+}
+
+.articulos__abrigos:hover{
+    background-color: #f7e3be;
+    border: 2px solid #a77211;
+}
+
+.articulos__camisetas:hover{
+    background-color: #f7e3be;
+    border: 2px solid #a77211;
+}
+
+.articulos__pantalones{
+    background-color: #f7e3be;
+    border: 2px solid #a77211;
+}
+
+.articulos__carrito:hover{
+    background-color: #f7e3be;
+    border: 2px solid #a77211;
+}
+
+#Productos{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end;
+    background-color: #fff;
+    padding-left: 8vh;
+}
+
+.Productos__listado{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 3vh;
+    align-items: center;
+}
+
+.Productos__img{
+    display: flex;
+    justify-content: center;
+}
+
+.Productos__descripcion{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
