@@ -27,8 +27,13 @@ aside{
     align-items: center;
 }
 
-.articulos__todos:hover{
+#articulos a{
     text-align: center;
+    text-decoration: none;
+    color: #000;
+}
+
+.articulos__todos:hover{
     background-color: #f7e3be;
     border: 2px solid #a77211;
 }
@@ -56,9 +61,10 @@ aside{
 #Productos{
     display: flex;
     flex-direction: column;
-    justify-content:flex-end;
+    justify-content:space-around;
     background-color: #fff;
     padding-left: 8vh;
+    padding-right: 8vh;
 }
 
 .Productos__listado{

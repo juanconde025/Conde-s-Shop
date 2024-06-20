@@ -21,7 +21,6 @@ aside{
 #principal{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     padding-top: 3vh;
     gap: 5vh;
 }
@@ -31,6 +30,12 @@ aside{
     flex-direction: column;
     gap: 1vh;
     align-items: center;
+}
+
+#articulos a{
+    text-align: center;
+    text-decoration: none;
+    color: #000;
 }
 
 .articulos__todos:hover{
@@ -62,9 +67,12 @@ aside{
 #Productos{
     display: flex;
     flex-direction: column;
-    justify-content:flex-end;
+    justify-content:flex-start;
     background-color: #fff;
     padding-left: 8vh;
+    padding-right: 70%;
+    gap: 3vh;
+    padding-bottom: 4vh;
 }
 
 .Productos__listado{
@@ -84,4 +92,9 @@ aside{
     display: flex;
     flex-direction: row;
     text-align: center;
+}
+
+#borrar{
+    display: flex;
+    justify-content: space-around;
 }

@@ -15,9 +15,9 @@ aside{
 #principal{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    padding-top: 3vh;
-    gap: 5vh;
+    justify-content: space-around;
+    padding-top: 2vh;
+    gap: 1vh;
 }
 
 #articulos{
@@ -25,6 +25,11 @@ aside{
     flex-direction: column;
     gap: 1vh;
     align-items: center;
+}
+
+#articulos a{
+    text-decoration: none;
+    color: #000;
 }
 
 .articulos__todos:hover{
@@ -56,9 +61,10 @@ aside{
 #Productos{
     display: flex;
     flex-direction: column;
-    justify-content:flex-end;
+    justify-content:space-around;
     background-color: #fff;
     padding-left: 8vh;
+    padding-right: 8vh;
 }
 
 .Productos__listado{

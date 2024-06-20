@@ -11,6 +11,7 @@ aside{
     background-color: #fff;
     padding-left: 5vh;
     padding-right: 5vh;
+    position: sticky;
 }
 
 #principal{
@@ -26,6 +27,11 @@ aside{
     flex-direction: column;
     gap: 1vh;
     align-items: center;
+}
+
+#articulos a{
+    text-decoration: none;
+    color: #000;
 }
 
 .articulos__todos{
