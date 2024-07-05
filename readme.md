@@ -4,12 +4,12 @@ Este repositorio se uso para el desarrollo de una pagina web diseñada para la v
 ## Tabla de contenidos
 | Indice | Titulo  |
 |--|--|
-| 1 | Instalación |
-| 2 | Todos los productos |
-| 3 | Abrigos |
-| 4 | Camisas |
-| 5 | Pantalones |
-| 6 | Carrito |
+| 1 | [Instalación](#instalaciones) |
+| 2 | [Todos los productos](#todos-los-productos) |
+| 3 | [Abrigos](#abrigos) |
+| 4 | [Camisas](#camisetas) |
+| 5 | [Pantalones](#pantalones) |
+| 6 | [Carrito](#carrito) |
 
 
 ### Instalaciones 
